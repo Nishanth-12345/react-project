@@ -5,13 +5,13 @@ const HeroBanner = () => {
   return (
     <div className="hero-banner-container">
         <div>
-            <p className="beats-solo">small text</p>
-            <h3>Mid et</h3>
+            <p className="beats-solo">Online shopping</p>
+            <h3>Best Price</h3>
             <img src={Banner} alt="headphones" className="hero-banner-image" />
             
             <div>
                 <Link to='product/ID'>
-                    <button type="button">button</button>
+                    <button type="button">Buy now</button>
                 </Link>
             </div>
         </div>

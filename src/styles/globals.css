@@ -220,10 +220,12 @@ text-align: end;
   color: white;
   width: 100%;
   margin-top: 120px;
+  
 }
 .banner-desc{
   display: flex ;
   justify-content: space-between;
+  
 }
 .banner-desc button{
   border-radius: 15px;
@@ -246,6 +248,8 @@ text-align: end;
 }
 .footer-banner-image{
   position: absolute;
+  width: 550px;
+  height: 550px;
   /* top: -35%;
   left: 8%; */
   top: -25%;

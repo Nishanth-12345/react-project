@@ -29,7 +29,7 @@ const Product = ({item}) => {
                    <h4>{price}</h4>
 
                  <Link to= {`product/:${id}`}>
-                    <button onClick={()=> addtocart()}>
+                    <button class='btn-11' onClick={()=> addtocart()}>
                       shop now
                   
                     </button>
